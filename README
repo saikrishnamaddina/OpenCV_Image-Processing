@@ -1,0 +1,18 @@
+This repository contains image_processing techniques by using OpenCV.
+
+1.Display_image_and_video 
+
+ This directory contains basic operations like reading,writing and display the image and for opening and writing the video.
+
+2.Blur
+
+ This directory contains blurring functions
+
+3.Morphological_operation
+
+ This directory contains Morphological operations like erosion and dialtion etc.
+
+4.Threshold
+
+ This directory contains thresholding operatons.
+
