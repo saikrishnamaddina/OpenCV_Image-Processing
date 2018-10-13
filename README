@@ -15,4 +15,23 @@ This repository contains image_processing techniques by using OpenCV.
 4.Threshold
 
  This directory contains thresholding operatons.
+ 
+ Compiling options :
+ 
+Prerequisites :
 
+1.OpenCV - 3.x or latest version.
+
+2.CMake - 3.x
+
+3.GCC/G++ - 6.x or above
+
+
+Steps to compile and execute the above programs
+
+1. mkdir Opencv
+2. Clone the repository using git clone https://github.com/saikrishnamaddina/OpenCV_Image-Processing
+3. cd Display_image_and_video
+4. cmake .
+5. make 
+6../Display_image <filename>
