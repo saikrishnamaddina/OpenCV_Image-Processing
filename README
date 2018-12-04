@@ -1,8 +1,24 @@
-This repository contains image_processing techniques by using OpenCV.
+**OpenCV :**
+           OpenCV (Open source computer vision) is a library of programming functions mainly aimed at real-time computer vision.[1] Originally developed by Intel[2], it was later supported by Willow Garage then Itseez (which was later acquired by Intel[3]). The library is cross-platform and free for use under the open-source BSD license.
 
-1.Display_image_and_video 
+**Compiling options(UBUNTU) :**
 
- This directory contains basic operations like reading,writing and display the image and for opening and writing the video.
+**Prerequisites :**
+
+1.OpenCV - 3.x or latest version.
+
+2.CMake - 3.x
+
+3.GCC/G++ - 6.x or above
+
+This repository contains Basic image_processing techniques :
+
+
+1.Display_image_and_video
+
+ This directory contains basic image/video reading and writing api's.
+
+ Implemented code for each operation like image reading , printing the size and channels information of images , videos opening , reading each frame from the videos and as well writing each frame to the recording videos. 
 
 2.Blur
 
@@ -15,23 +31,6 @@ This repository contains image_processing techniques by using OpenCV.
 4.Threshold
 
  This directory contains thresholding operatons.
- 
- Compiling options :
- 
-Prerequisites :
-
-1.OpenCV - 3.x or latest version.
-
-2.CMake - 3.x
-
-3.GCC/G++ - 6.x or above
 
 
-Steps to compile and execute the above programs
 
-1. mkdir Opencv
-2. Clone the repository using git clone https://github.com/saikrishnamaddina/OpenCV_Image-Processing
-3. cd Display_image_and_video
-4. cmake .
-5. make 
-6../Display_image <filename>
